@@ -1,0 +1,31 @@
+{
+  "id": "bsc-radar-v1",
+  "description": "Small, explicit BSC starter universe. Expand only after address and decimals are verified.",
+  "tiers": {
+    "radar": [
+      {"chain": "56", "token": "0x55d398326f99059ff775485246999027b3197955", "symbol": "USDT"},
+      {"chain": "56", "token": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d", "symbol": "USDC"}
+    ],
+    "research": [
+      {"chain": "56", "token": "0x55d398326f99059ff775485246999027b3197955", "symbol": "USDT"},
+      {"chain": "56", "token": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d", "symbol": "USDC"}
+    ],
+    "active": [
+      {
+        "id": "bsc-usdt-usdc",
+        "chain": "56",
+        "from_token": "0x55d398326f99059ff775485246999027b3197955",
+        "to_token": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+        "amounts": ["100000000000000000000", "500000000000000000000", "1000000000000000000000"]
+      }
+    ]
+  },
+  "options": {
+    "candles_bar": "1m",
+    "candles_limit": 60,
+    "include_advanced": true,
+    "include_trades": false,
+    "trades_limit": 100
+  }
+}
+
